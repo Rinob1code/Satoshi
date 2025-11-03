@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOUL eBook | Satoshi Lee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SOUL eBook</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#books">My Books</a>
+      <a href="#best">Best Book</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section id="about" class="card fade-in">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m <strong>Satoshi Lee</strong> — a storyteller who believes every word carries a heartbeat.
+        Through <strong>SOUL eBook</strong>, I share stories that reflect emotion, hope,
+        and the quiet beauty hidden in everyday life. My books are written to touch hearts,
+        spark thoughts, and connect souls across the world.
+      </p>
+    </section>
+
+    <!-- Book List -->
+    <section id="books" class="card fade-in">
+      <h2>My Book List</h2>
+      <input type="text" id="search" placeholder="Search a book..." onkeyup="searchBooks()" />
+      <ul id="bookList">
+        <li><strong>Whispers of the Rain</strong><p>“A poetic journey through heartbreak and rebirth.”</p></li>
+        <li><strong>Echoes of Tomorrow</strong><p>“A tale about dreams, memory, and the power of hope.”</p></li>
+        <li><strong>Silent Sakura</strong><p>“Stories beneath falling petals — love, loss, and rebirth.”</p></li>
+        <li><strong>Light Beyond the Shadows</strong><p>“When darkness meets the light of understanding.”</p></li>
+      </ul>
+    </section>
+
+    <!-- Best Book -->
+    <section id="best" class="card fade-in">
+      <h2>Best Book of Satoshi</h2>
+      <div class="best-book">
+        <h3>🌸 Silent Sakura</h3>
+        <p>
+          A mesmerizing collection of emotions — painted with words, set in the heart of a cherry blossom season.  
+          This book captures the soul of <strong>Satoshi Lee’s</strong> writing — calm, emotional, and deeply human.
+        </p>
+        <button class="read-more">Read More</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Satoshi Lee · SOUL eBook</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
